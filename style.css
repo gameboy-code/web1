@@ -1,0 +1,36 @@
+:root{
+--color-primario:rgb(0, 247, 255);
+--color-secundario:rgb(255, 207, 247);
+--color-texto:rgb(17, 17, 17);
+--color-acento:rgb(0, 0, 0);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+display: flex;
+gap: 30px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+color: var(--color-texto);
+}
+
+nav ul {
+list-style: none;
+padding: 14px 40px;
+background-color: var(--color-primario);
+display: flex;
+}
+body{
+    background: var(--color-secundario);
+}
