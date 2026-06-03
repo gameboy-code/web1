@@ -25,6 +25,8 @@ a{
 color: var(--color-texto);
 text-decoration: none;
 font-size: 20px;
+display: flex;
+align-items: center;
 }
 
 nav ul {
@@ -32,6 +34,7 @@ list-style: none;
 padding: 14px 40px;
 background-color: var(--color-primario);
 display: flex;
+justify-content: center;
 }
 body{
     background: var(--color-secundario);
